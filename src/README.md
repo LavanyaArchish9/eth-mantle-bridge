@@ -15,16 +15,15 @@ Comprehensive logging system
 
 ## Docker Setup and Project Execution
 Here's how the project runs in Docker, showing successful container initialization and service startup:
-![Docker Setup](/docs/images/docker%20setup.png)
+![Docker Setup](./docs/images/docker%20setup.png)
 ## Transaction Verification
 The following images demonstrate a successful transfer with matching balances:
 
 ### MetaMask Wallet Balance
 Current wallet balance showing the exact amount after transfer:
-![MetaMask Balance](/docs/images/metamask2.png)
-### Transaction Confirmation
+![MetaMask Balance](./docs/images/metamask2.png)### Transaction Confirmation
 Transaction logs confirming the successful transfer with matching balance:
-![Successful Transaction](/docs/images/succssful%20transcation.png)
+![Successful Transaction](./docs/images/succssful%20transcation.png)
 
 
 As shown in both screenshots above, the final balance matches between MetaMask and the transaction logs, confirming the transfer's accuracy and success.
