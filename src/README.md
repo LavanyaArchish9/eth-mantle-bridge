@@ -24,8 +24,7 @@ Current wallet balance showing the exact amount after transfer:
 ![MetaMask Balance](/docs/images/metamask2.png)
 ### Transaction Confirmation
 Transaction logs confirming the successful transfer with matching balance:
-![Successful Transaction](/docs/images/succssful%20transcation2.png)
-
+![Successful Transaction](/docs/images/succssful%20transcation.png)
 
 
 As shown in both screenshots above, the final balance matches between MetaMask and the transaction logs, confirming the transfer's accuracy and success.
