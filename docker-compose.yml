@@ -1,0 +1,66 @@
+# version: '3.8'
+
+# services:
+#   bridge:
+#     build: .
+#     container_name: eth-mantle-bridge
+#     dns:
+#       - 8.8.8.8
+#       - 8.8.4.4
+#     networks:
+#       - bridge-network
+#     volumes:
+#       - ./.env:/app/.env
+#     environment:
+#       - PYTHONPATH=/app
+#       - DNS_SERVERS=8.8.8.8,8.8.4.4
+#     extra_hosts:
+#       - "sepolia.infura.io:104.16.132.229"
+#     restart: unless-stopped
+
+# networks:
+#   bridge-network:
+#     driver: bridge
+
+
+
+version: '3.8'
+
+services:
+  bridge:
+    build: .
+    container_name: eth-mantle-bridge
+    volumes:
+      - ./.env:/app/.env
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+
+
+# version: '3.8'
+
+# services:
+#   bridge:
+#     build: .
+#     container_name: eth-mantle-bridge
+#     dns:
+#       - 8.8.8.8
+#       - 8.8.4.4
+#     networks:
+#       - bridge-network
+#     volumes:
+#       - ./.env:/app/.env
+#     environment:
+#       - PYTHONPATH=/app
+#       - REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+#     extra_hosts:
+#       - "sepolia.infura.io:104.16.132.229"
+#     restart: unless-stopped
+
+# networks:
+#   bridge-network:
+#     driver: bridge
+#     ipam:
+#       driver: default
+#       config:
+#         - subnet: 172.20.0.0/16
